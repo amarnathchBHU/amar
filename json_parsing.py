@@ -23,6 +23,7 @@ jsonData =  '''{"menu": {
   "popup": {
     "menuitem": [
       {"value": "New", "onclick": "CreateNewDoc()"},
+      {"value": "Save", "onclick": "SaveDoc()"},
       {"value": "Open", "onclick": "OpenDoc()"},
       {"value": "Close", "onclick": "CloseDoc()"}
     ]
